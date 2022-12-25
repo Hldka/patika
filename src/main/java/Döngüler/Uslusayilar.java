@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Uslusayilar {
     public static void main(String[] args) {
-<<<<<<< HEAD
+
         int n, k;
         Scanner scan = new Scanner(System.in);
         System.out.println(" bir sayi giriniz");
@@ -25,7 +25,7 @@ public class Uslusayilar {
 
     }
 
-=======
+/*
         int n,k ;
         Scanner scan =new Scanner(System.in);
         System.out.println(" bir sayi giriniz");
@@ -37,6 +37,8 @@ public class Uslusayilar {
             sum=sum*n;
         }
         System.out.println("sonuc : "+sum);
-    }
->>>>>>> origin/main
+
+ */
+
+
 }
