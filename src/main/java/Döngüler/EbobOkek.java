@@ -13,13 +13,13 @@ public class EbobOkek {
         int x;
         int ebob=0;
         if (m>n){x=m;}else {x=n;}
+int i=1;
+while (i<=x){
 
-
-        for (int i=1;i<=x;i++){
             if (n%i==0&&m%i==0){
                 System.out.print(i+" ");
                 ebob =i;
-            }
+            }i++;
         }
         System.out.println("ebob = " + ebob);
 
