@@ -1,0 +1,21 @@
+--CREATE TABLE <data_type> (
+--<column_name><data_type><constraint>)
+
+CREATE TABLE author(
+	id SERiAL PRIMARY KEY,
+	first_name VARCHAR(50) NOT NULL,
+	last_name VARCHAR (50) NOT NULL,
+	email VARCHAR(100),
+	birhday DATE
+);
+
+INSERt INTO author(first_name,last_name,email,birhday)
+values ('Haruki','Maruki','haruk@ali.comi','1946-6-2'),
+('Halide','edip','haruk@ali.comi','1946-6-2'),
+('sabahattin','Ali','haruk@ali.comi','1946-6-2'),
+('Resat','Nuri','haruk@ali.comi','1946-6-2');
+select * FROM author
+
+CREate table author2 As
+SELECT *from author
+SELECT *FROM author2
