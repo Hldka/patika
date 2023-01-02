@@ -1,6 +1,7 @@
 package ogrencinotsistemi;
 
-public class Teacher {String name;
+public class Teacher {
+    String name;
     String mpno;
     String branch;
 
