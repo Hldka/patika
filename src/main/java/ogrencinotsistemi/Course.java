@@ -1,6 +1,7 @@
 package ogrencinotsistemi;
 
-public class Course {  Teacher courseTeacher;
+public class Course {
+    Teacher courseTeacher;
     String name;
     String code;
     String prefix;
