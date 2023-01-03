@@ -1,0 +1,12 @@
+1. Personel ve yönetim adinda 2 class olsun
+2.Yönetim hesabindan yapilan girisle (isim,maas,aylik calisma suresi,ise giris tarihi ) yapilsin
+3.vergi hesaplansin(2000 € dan fazla maas aliyorsa %10 vergi)
+4.30 saatten fazla calisirsa saat basi 30€ prim hesaplansin
+5.10 yildan fayzla calisiyorsa %5
+10 ile 20 yil arasi %10
+20 yil uzeri %15 kidem primi alsin
+6.Yönetim hesabindan yapilan girisle
+a)kisinin odemesi gereken vergi
+b)prim tutari
+c)kidem parasi
+d)net maasini gorelim
