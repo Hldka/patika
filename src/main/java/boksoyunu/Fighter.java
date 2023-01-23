@@ -3,10 +3,10 @@ package boksoyunu;
 public class Fighter {
 
     String name;
-    int damage;
+    int damage;//hasar
     int health;
     int weight;
-    int dodge;
+    int dodge;//kacmak
 
     public Fighter(String name, int damage, int health, int weight,int dodge) {
         this.name = name;
